@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { View,Text} from 'react-native';
+import { View,Text,Button} from 'react-native';
 
 
 function App(): JSX.Element {
@@ -9,8 +9,9 @@ function App(): JSX.Element {
 
   return (
      <View>
-  <Text style={{fontSize:20}}>Hello react native i have finally achieve you</Text>
-</View>
+      <Text style={{ fontSize: 20 }}>Hello react native i have finally achieve you</Text>
+      <Button title='press me'></Button>
+    </View>
   );
 }
 
